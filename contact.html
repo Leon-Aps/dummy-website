@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | <a href="about.html">Over Ons</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy</a>
+    </nav>
+    <h1>Contact</h1>
+    <p>Neem contact met ons op via <a href="mailto:info@voorbeeld.com">info@voorbeeld.com</a>.</p>
+    <form action="https://httpbin.org/post" method="POST">
+        <label for="name">Naam:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Bericht:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Verstuur</button>
+    </form>
+</body>
+</html>
